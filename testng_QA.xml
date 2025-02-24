@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Nikita/IdeaProjects/APIAutomationFramework_ATB9x">
+        <groups>
+            <run>
+                <include name="QA"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.nikitagajbhiye.tests.crud.testCreateBooking">
+            </class>
+        </classes>
+    </test>
+</suite>
